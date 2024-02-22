@@ -1,0 +1,53 @@
+/* RESET  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* RESET  */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted black;
+    width: 80%;
+}
+
+/* Header  */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #add8e6;
+    min-height: 30px;
+}
+
+header > div{
+    margin: 10px;
+}
+
+.main {
+    height: 20px;
+    background-color: orange;
+}
+
+.upper-left {
+    text-align: left;
+    width: 20%;
+    border-right: 2px dotted black;
+}
+
+.upper-center {
+    width: 60%;
+    text-align: center;
+}
+
+.upper-right {
+    width: 20%;
+    border-left: 2px dotted black;
+    text-align: right;
+
+}
