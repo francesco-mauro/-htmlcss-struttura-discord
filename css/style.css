@@ -80,7 +80,7 @@ main {}
 /* <!-- second main container  --> */
 .white {
     background-color: white;
-    height: 200px;
+    min-height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,11 +117,73 @@ main {}
 /* <!-- third main container  --> */
 
 /* <!-- fifth main container  --> */
-
 .green{
     background-color: green;
     width: 100%;
     height: 300px;
 }
-
 /* <!-- fifth main container  --> */
+
+/* <!-- sixth main container  --> */
+.black {
+    background-color: rgb(33, 30, 30);
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+
+.dark-pink{
+    background-color: rgb(227, 68, 94);
+    width: calc(100%/3);
+    height: 200px;
+
+}
+
+.sea-green{
+    background-color:rgb(27, 167, 160) ;
+    width: calc(100%/6);
+    height: 200px;
+
+}
+
+.white-border{
+    border-right: 2px dotted white;
+}
+/* <!-- sixth main container  --> */
+
+/* <!-- <footer> --> */
+.black-footer {
+    background-color: rgb(33, 30, 30);
+    min-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    margin-top: 12px;
+    background-color:rgb(27, 167, 160) ;
+
+}
+.bottom-little-box {
+    text-align: center;
+    width: 12%;
+    border: 2px dotted black;
+}
+
+.color-bottom-little-box {
+    height: 20px;
+    background-color: pink;
+}
+
+
+
+/* <!-- <footer> --> */
+
