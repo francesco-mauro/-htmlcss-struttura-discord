@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* RESET  */
 
 .container {
@@ -16,7 +15,6 @@
 }
 
 /* Header  */
-
 header {
     display: flex;
     justify-content: center;
@@ -29,7 +27,7 @@ header > div{
     margin: 10px;
 }
 
-.main {
+.main-upper {
     height: 20px;
     background-color: orange;
 }
@@ -49,5 +47,55 @@ header > div{
     width: 20%;
     border-left: 2px dotted black;
     text-align: right;
+}
+/* Header  */
+
+/* main  */
+
+main{
 
 }
+
+/* main  */
+
+/* <!-- first main container  --> */
+.im-blue{
+    background-color: blue;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bright-pink{
+    background-color: violet;
+    height: 80%;
+    width: 65%;
+}
+/* <!-- first main container  --> */
+
+/* <!-- second main container  --> */
+.white{
+    background-color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.blue{
+    background-color: blue;
+    width: 60%;
+    height: 150px;
+}
+
+.pink{
+    background-color: pink;
+    width: 40%;
+    height: 150px;
+}
+
+.border-right{
+    border-right: 2px dotted black;
+}
+/* <!-- second main container  --> */
